@@ -1,0 +1,65 @@
+.navbar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0c0c0c;
+    padding: 12px 7%;
+
+
+}
+
+.logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    /* makes items in one horizontal line */
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.user_avatar {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+.nav__search__box {
+    display: flex;
+    align-items: center;
+    background: rgb(39, 39, 39);
+    padding: 10px 20px;
+    border-radius: 50px;
+
+
+}
+
+.nav__search__box input {
+    padding: 5px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    max-width: 200px;
+
+
+}
+
+.nav__search__box input::placeholder {
+    color: #fff;
+}
+
+/* .nav__search__box .search_icon {} */

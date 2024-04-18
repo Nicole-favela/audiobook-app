@@ -1,0 +1,25 @@
+.book__items {
+    display: flex;
+    /* align horizontally */
+    overflow-x: auto;
+    /* horizontal scrolling */
+    white-space: nowrap;
+    /* Keep all items in a single line */
+    padding: 10px;
+    /* Add some padding around */
+    gap: 10px;
+    /* space between books */
+}
+
+.book {
+    width: 100%;
+    /* fill its container */
+    overflow: hidden;
+    /* hide overflow */
+}
+
+.book>h2 {
+    color: white;
+    padding: 13px;
+
+}
