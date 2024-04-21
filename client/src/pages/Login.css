@@ -1,0 +1,31 @@
+.login {
+    position: relative;
+    height: 100vh;
+    background: url("https://i0.wp.com/detailswork.com/wp-content/uploads/2022/04/5e34ee8d34c4515584246360_ed5e1a9c-5068-46de-b3ec-9d649abe13e0_1024x1024.jpeg") center no-repeat;
+    /* background: url("https://e0.pxfuel.com/wallpapers/860/271/desktop-wallpaper-books-library-shelves-lighting-book-library-background-cool-library-thumbnail.jpg") center no-repeat; */
+    background-size: cover;
+
+
+
+}
+
+
+
+.login__background {
+    background-color: transparent;
+
+
+}
+
+.login__body > p {
+    color: rgb(254, 254, 255);
+
+}
+
+.login__button {
+    margin-top: 30px;
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
