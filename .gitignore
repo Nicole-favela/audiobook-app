@@ -11,6 +11,9 @@ client/node_modules
 # production
 /build
 
+#config details for firebase
+client/src/config
+
 # misc
 .DS_Store
 .env.local
