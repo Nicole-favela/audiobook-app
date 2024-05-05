@@ -1,10 +1,11 @@
 import React from 'react'
 //button from: https://uiverse.io/LightAndy1/chilly-gecko-10
 import "./SignInButton.css"
-export const SignInButton = () => {
+export const SignInButton = ({ onClick }) => {
+
     return (
         <div className='signin__container'>
-            <button className="signin">
+            <button className="signin" onClick={onClick} >
                 <svg
                     viewBox="0 0 256 262"
                     preserveAspectRatio="xMidYMid"
